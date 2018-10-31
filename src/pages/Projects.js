@@ -53,7 +53,7 @@ class Projects extends Component {
             />
             <Cardl
               name="To do App"
-              description="Una aplicació de tareas hecha con puro JavaScript, css y html"
+              description="Una aplicación de tareas hecha con puro JavaScript, css y html"
               url={vanillaUrl}
               gitHub="https://github.com/Grifo89/To-do-list-JavaScript"
               live="https://grifo89.github.io/To-do-list-JavaScript/"
