@@ -10,7 +10,7 @@ import Cardl from '../components/Cardl';
 
 
 const reactUrl = require("../images/React.png");
-// const vanillaUrl = require("../images/js.png");
+const vanillaUrl = require("../images/js.png");
 const python = require("../images/Python.jpg");
 const r = require("../images/R.png");
 
@@ -44,13 +44,12 @@ class Projects extends Component {
               color="white"
             />
             <Cardl
-              name="React Project #3"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Mauris sagittis pellentesque lacus eleifend lacinia..."
-              url={reactUrl}
-              gitHub="https://github.com/"
-              live="https://google.com"
-              color="white"
+              name="Tennis Game"
+              description="Un juego de tennis hecho con JavaScript Vainilla y canvas"
+              url={vanillaUrl}
+              gitHub="https://github.com/Grifo89/Tennis-game"
+              live="https://grifo89.github.io/Tennis-game/"
+              color="black"
             />
           </div>
               )
