@@ -51,6 +51,14 @@ class Projects extends Component {
               live="https://grifo89.github.io/Tennis-game/"
               color="white"
             />
+            <Cardl
+              name="Tennis Game"
+              description="Un juego de tennis hecho con JavaScript Vainilla y canvas"
+              url={vanillaUrl}
+              gitHub="https://github.com/Grifo89/To-do-list-JavaScript"
+              live="https://grifo89.github.io/To-do-list-JavaScript/"
+              color="white"
+            />
           </div>
               )
       case 1:
