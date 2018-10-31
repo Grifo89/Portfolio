@@ -28,21 +28,19 @@ class Projects extends Component {
         return (
           <div className="projects-grid">
             <Cardl
-              name="React Project #1"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Mauris sagittis pellentesque lacus eleifend lacinia..."
+              name="Face-App-Recognition"
+              description="Desarrollo de una aplicación CRUD con react-redux-express integrando el API de Clarifai"
               url={reactUrl}
-              gitHub="https://github.com/"
-              live="https://google.com"
+              gitHub="https://github.com/Grifo89/Fase-recognition-app"
+              live="https://smart-br.herokuapp.com"
               color="white"
             />
             <Cardl
-              name="React Project #2"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Mauris sagittis pellentesque lacus eleifend lacinia..."
+              name="Robot-friends"
+              description="Una aplicación sencilla con react-redux en la cual se puede filtrar por nombre los robots"
               url={reactUrl}
-              gitHub="https://github.com/"
-              live="https://google.com"
+              gitHub="https://github.com/Grifo89/Robots-react"
+              live="https://gruesome-tomb-62366.herokuapp.com/"
               color="white"
             />
             <Cardl
