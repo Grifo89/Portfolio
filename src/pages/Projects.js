@@ -52,8 +52,8 @@ class Projects extends Component {
               color="white"
             />
             <Cardl
-              name="Tennis Game"
-              description="Un juego de tennis hecho con JavaScript Vainilla y canvas"
+              name="To do App"
+              description="Una aplicació de tareas hecha con puro JavaScript, css y html"
               url={vanillaUrl}
               gitHub="https://github.com/Grifo89/To-do-list-JavaScript"
               live="https://grifo89.github.io/To-do-list-JavaScript/"
