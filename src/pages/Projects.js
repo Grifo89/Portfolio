@@ -49,7 +49,7 @@ class Projects extends Component {
               url={vanillaUrl}
               gitHub="https://github.com/Grifo89/Tennis-game"
               live="https://grifo89.github.io/Tennis-game/"
-              color="black"
+              color="white"
             />
           </div>
               )
