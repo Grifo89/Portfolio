@@ -45,17 +45,17 @@ a{
 } */
 
 .banner-text{
-  padding-top: 4em;
+  height: 50%;
   width: 70%;
-  margin-top: 13em;
-  margin-left: auto;
-  margin-right: auto;
   background: rgba(0, 0, 0, 0.8);
   border-radius: 10px;
   color: white;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+
 }
 
 .banner-text h1 {
@@ -182,7 +182,26 @@ a{
   text-align: justify;
 }
 
+.form {
+  height: 50%;
+  width: 70%;
+  border-radius: 10px;
+  color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
 
+.mdl-textfield__input{
+    border-bottom: 1px solid white !important;
+    color: black !important;
+}
+
+.mdl-textfield__label{
+    color: black !important;
+}
 /* Responsive query */
 @media screen and (min-width: 1000px) {
 
@@ -228,11 +247,21 @@ a{
   }
   .about-sub-container{
     border-top-right-radius: 100px;
-      border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
     margin: auto;
     padding: 11vw;
     height: 500vw;
     text-align: justify;
   }
+  .circle {
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 9.5px;
+    left: 9px;
 
+  }
 }
