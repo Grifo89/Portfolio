@@ -39,9 +39,9 @@ class App extends Component {
         <Particles className='Particles'
           params={particlesOptions}
         />
+        <span className="circle"></span>
         <NavBar/>
     </div>
-
     );
   }
 }

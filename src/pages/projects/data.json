@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Face-App-Recognition",
+    "description": "Desarrollo de una aplicación CRUD con react-redux-express integrando el API de Clarifai",
+    "type": "react",
+    "github": "https://github.com/Grifo89/Fase-recognition-app",
+    "live": "https://smart-br.herokuapp.com",
+    "color": "white"
+  },
+  {
+    "id": 2,
+    "name": "Robot-friends",
+    "description": "Una aplicación sencilla con react-redux en la cual se puede filtrar por nombre los robots",
+    "type": "react",
+    "github": "https://github.com/Grifo89/Robots-react",
+    "live": "https://gruesome-tomb-62366.herokuapp.com/",
+    "color": "white"
+  },
+  {
+    "id": 3,
+    "name": "Tennis Game",
+    "description": "Un juego de tennis hecho con JavaScript Vainilla y canvas",
+    "type": "vanilla",
+    "github": "https://github.com/Grifo89/Tennis-game",
+    "live": "https://grifo89.github.io/Tennis-game/",
+    "color": "white"
+  },
+  {
+    "id": 4,
+    "name": "To do App",
+    "description": "Una aplicación de tareas hecha con puro JavaScript, css y html",
+    "type": "vanilla",
+    "github": "https://github.com/Grifo89/To-do-list-JavaScript",
+    "live": "https://grifo89.github.io/To-do-list-JavaScript/",
+    "color": "white"
+  },
+  {
+    "id": 5,
+    "name": "Python Project",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis pellentesque lacus eleifend lacinia...",
+    "type": "python",
+    "github": "#",
+    "live": "#",
+    "color": "white"
+  },
+  {
+    "id": 6,
+    "name": "R Project",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis pellentesque lacus eleifend lacinia...",
+    "type": "r",
+    "github": "#",
+    "live": "#",
+    "color": "white"
+  }
+]

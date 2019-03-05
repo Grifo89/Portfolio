@@ -16,3 +16,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.mdl-navigation__link{
+  font-size: 18px !important;
+  font-weight: bold !important;
+}

@@ -14,7 +14,6 @@ export class Education extends Component { // eslint-disable-line react/prefer-s
         <Cell col={8}>
           <h4 style={{marginTop:'0px'}}>{this.props.jobName}</h4>
           <h6 style={{marginTop:'0px'}}>{this.props.position}</h6>
-          <p>{this.props.jobDescription}</p>
         </Cell>
       </Grid>
 

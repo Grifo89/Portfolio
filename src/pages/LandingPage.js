@@ -6,6 +6,17 @@ class LandingPage extends Component {
   render(){
     return(
       <div style={{width: "100%", margin: "auto"}}>
+        <div id="arrowAnim">
+          <div className="arrowSliding">
+            <div className="arrow"></div>
+          </div>
+          <div className="arrowSliding delay1">
+            <div className="arrow"></div>
+          </div>
+          <div className="arrowSliding delay2">
+            <div className="arrow"></div>
+          </div>
+        </div>
         <Grid className="landing-grid">
           <Cell col={12}>
             {/* <img

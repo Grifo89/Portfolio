@@ -38,6 +38,7 @@ a{
   z-index: 1;
 }
 
+
 /* .avatar-img{
   height: 250px;
   padding-top: 5em;
@@ -45,17 +46,17 @@ a{
 } */
 
 .banner-text{
-  padding-top: 4em;
+  height: 50%;
   width: 70%;
-  margin-top: 13em;
-  margin-left: auto;
-  margin-right: auto;
   background: rgba(0, 0, 0, 0.8);
   border-radius: 10px;
   color: white;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+
 }
 
 .banner-text h1 {
@@ -182,6 +183,40 @@ a{
   text-align: justify;
 }
 
+.form {
+  height: 50%;
+  width: 70%;
+  border-radius: 10px;
+  color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.mdl-textfield__input{
+    border-bottom: 1px solid white !important;
+    color: black !important;
+}
+
+.mdl-textfield__label{
+    color: black !important;
+}
+#page{
+  /* background: rgba(255, 255, 255, 1); */
+  width: 90%;
+  height: 100%;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 0;
+  margin-right: 0;
+  color: white;
+}
+
+#page img{
+  margin-left: 350px;
+}
 
 /* Responsive query */
 @media screen and (min-width: 1000px) {
@@ -228,11 +263,73 @@ a{
   }
   .about-sub-container{
     border-top-right-radius: 100px;
-      border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
     margin: auto;
     padding: 11vw;
     height: 500vw;
     text-align: justify;
   }
+  .circle {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    z-index: 2
+  }
 
+  #arrowAnim {
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 8px;
+    /* width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center */
+  }
+
+  .arrow {
+    width: 5vw;
+    height: 5vw;
+    border: 2.5vw solid;
+    border-color: white transparent transparent white;
+    transform: rotate(-45deg);
+  }
+
+
+  .arrowSliding {
+    position: absolute;
+    -webkit-animation: slide 4s linear infinite;
+            animation: slide 4s linear infinite;
+  }
+
+  .delay1 {
+    -webkit-animation-delay: 1s;
+      animation-delay: 1s;
+  }
+  .delay2 {
+    -webkit-animation-delay: 2s;
+      animation-delay: 2s;
+  }
+  .delay3 {
+    -webkit-animation-delay: 3s;
+      animation-delay: 3s;
+  }
+
+  @-webkit-keyframes slide {
+      0% { opacity:0; transform: translateX(15vw); }
+     20% { opacity:1; transform: translateX(9vw); }
+     80% { opacity:1; transform: translateX(-9vw); }
+    100% { opacity:0; transform: translateX(-15vw); }
+  }
+  @keyframes slide {
+      0% { opacity:0; transform: translateX(15vw); }
+     20% { opacity:1; transform: translateX(9vw); }
+     80% { opacity:1; transform: translateX(-9vw); }
+    100% { opacity:0; transform: translateX(-15vw); }
+  }
 }
