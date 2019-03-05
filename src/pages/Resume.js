@@ -12,7 +12,7 @@ class Resume extends Component {
         <Grid>
           <Cell col={4} className="resume-left-col">
             <div style={{textAlign:"center"}}>
-              <img src={require("../images/avatar.png")}
+              <img src="/images/avatar.png"
               alt="avatar"
               style={{height:"200px"}}
             />
@@ -41,43 +41,35 @@ class Resume extends Component {
               endYear="2017"
               jobName="Kuehne + Nagel"
               position="Regional Credit + Accounts Receivable Manager Assistant"
-              jobDescription="En mi rol como Regional Credit + Accounts Receivable Manager Assistant tenía que llevar el control de los ingresos de dinero en todas las cuentas bancarias de todo el Knowledge Center, monitorear la deuda de todos los clientes, hacer la predicción del recaudo y monitoriar el credito. Para realizar mis tareas desarrollé aplicaciones de VBA y algo de lo cual me siento orgullozo es que cuando estaba de practicante calculé la prima de riesgo cambiario para el negocio en Colombia."
             />
             <Experience
               startYear="2018"
               endYear="2018"
               jobName="Alkanza"
               position="Front end Developer"
-              jobDescription="
-              En mi rol como Front end Developer tenía que desarrollar parte de aplicaciones junto con un equipo a través de la metodología de desarrollo agile Scrum."
             />
             <hr style={{borderTop:"3px solid #FFB100"}}/>
             <h2>Habilidades</h2>
+            <br/>
             <h4>JavaScript</h4>
             <Skills
-              skill="Vanilla JS"
               progress={80}
               buffer={80}
             />
-            <Skills
-              skill="React"
-              progress={70}
-              buffer={70}
-            />
-            <Skills
-              skill="NodeJS-express"
-              progress={40}
-              buffer={40}
-            />
             <h4>Python</h4>
             <Skills
-              skill="Python"
               progress={70}
               buffer={70}
             />
             <h4>R</h4>
             <Skills
-              skill="R"
+
+              progress={40}
+              buffer={40}
+            />
+            <h4>WordPress</h4>
+            <Skills
+
               progress={40}
               buffer={40}
             />

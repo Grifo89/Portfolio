@@ -9,7 +9,7 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Christian Salazar</h2>
             <img
-              src={require("../images/avatar2.png")}
+              src="/images/avatar2.png"
               alt="avatar"
               style={{height:'250px'}}
             />
@@ -47,7 +47,6 @@ class Contact extends Component {
               </List>
             </div>
           </Cell>
-
         </Grid>
       </div>
     )
