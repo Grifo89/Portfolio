@@ -14,10 +14,10 @@ class Contact extends Component {
               style={{height:'250px'}}
             />
             <blockquote style={{fontSize: '37px', fontFamily:'"Gothic A1", sans-serif', marginBottom: '4px'}}>
-              <i>Talk is cheap. Show me the code</i>
+              <i>El mundo es de Dios y se lo alquila a los Valientes.</i>
             </blockquote>
             <span role="img" aria-label="">🦖🦖🦖🦖</span><span role="img" aria-label="">🔥🔥🔥</span>
-            <h5>By Linus Torvalds</h5>
+            <h5>Refrán Beduino</h5>
           </Cell>
           <Cell col={6}>
             <h2>Contacto</h2>
