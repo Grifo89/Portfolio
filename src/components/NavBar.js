@@ -22,16 +22,16 @@ class NavBar extends Component { // eslint-disable-line react/prefer-stateless-f
             <Header className="header-color" title={<Link style={{textDecoration:"none", color:"white"}} to="/">Christian Salazar Miño</Link>} scroll>
                 <Navigation>
                     <Link to="/resume">Resume</Link>
-                    <Link to="/projects">Projects</Link>
-                    <Link to="/contact">Contact</Link>
+                    <Link to="/projects">Projectos</Link>
+                    <Link to="/contact">Contacto</Link>
                     <Link to="/blog">Blog</Link>
                 </Navigation>
             </Header>
             <Drawer title={<Link style={{textDecoration:"none", color:"black"}} to="/" onClick={this.handleClick}>Christian Salazar</Link>} >
                 <Navigation onClick={this.handleClick}>
                   <Link to="/resume">Resume</Link>
-                  <Link to="/projects">Projects</Link>
-                  <Link to="/contact">Contact</Link>
+                  <Link to="/projects">Projectos</Link>
+                  <Link to="/contact">Contacto</Link>
                   <Link to="/blog">Blog</Link>
                 </Navigation>
             </Drawer>
