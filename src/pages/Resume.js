@@ -19,9 +19,9 @@ class Resume extends Component {
             </div>
 
             <h2 style={{paddinTop:"2em"}}>Christian Salazar Miño</h2>
-            <h4 style={{color:"grey"}}>Científico de Datos & Desarrollador</h4>
+            <h4 style={{color:"grey"}}>Científico de Datos & Ingeniero de Sotfware</h4>
             <hr style={{borderTop:"3px solid #FF1E00", width:"74%"}}/>
-            <p>Soy cientifico de datos <span role="img" aria-label="">💪</span> y desarrollador <span role="img" aria-label="">🚀🚀🚀</span> con título en economía  <span role="img" aria-label="">📈</span> de la universidad del Rosario de Bogotá Colombia. <span role="img" aria-label="d">🤖🤖</span>.....<span role="img" aria-label="">🦖🦖🦖🦖</span> Amo aprender cosas nuevas, los retos <span role="img" aria-label="">🔥🔥🔥</span>, hacer ejercicio y viajar </p>
+            <p>Soy cientifico de datos <span role="img" aria-label="">💪</span>e ingeniero de sotfware autodidacta <span role="img" aria-label="">🚀🚀🚀</span> con título en economía  <span role="img" aria-label="">📈</span> de la universidad del Rosario de Bogotá Colombia. <span role="img" aria-label="d">🤖🤖</span>.....<span role="img" aria-label="">🦖🦖🦖🦖</span> Amo aprender cosas nuevas, los retos <span role="img" aria-label="">🔥🔥🔥</span>, hacer ejercicio y viajar </p>
             <hr style={{borderTop:"3px solid #FF1E00", width:"74%"}}/>
             <h5>Email</h5>
             <p>calaca89@gmail.com</p>
