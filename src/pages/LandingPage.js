@@ -26,7 +26,7 @@ class LandingPage extends Component {
               style={{borderRadius:"50%", height:'auto', maxWidth: '15%'}}
             /> */}
             <div className="banner-text">
-              <h1>Desarrollador y Científico de Datos</h1>
+              <h1>Científico de Datos & Ingeniero de Sotfware</h1>
 
               <hr/>
               <p>JavaScript | Python | R | React | NodeJS | Express | D3 | MongoDB | SQL | Redis | Django</p>
