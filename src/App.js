@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import NavBar from './components/NavBar';
 import './App.css';
+import ReactGA from 'react-ga';
 
 
 import Particles from 'react-particles-js';
@@ -29,6 +30,11 @@ const particlesOptions = {
         "mode":"bubble"}
     }
   }
+}
+
+function initializeReactGA() {
+  ReactGA.initialize('UA-135915217-1');
+  ReactGA.pageview(window.location.pathname + window.location.search);
 }
 
 class App extends Component {
