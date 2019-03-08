@@ -14,7 +14,7 @@ const Main =()=>(
     <Route path="/projects" component={Projects}/>
     <Route path="/resume" component={Resume}/>
     {/* <Route path="/add-project" component={Form}/> */}
-    <Route path="/" component={() => { window.location = 'http://localhost/wordpress'; return null;}}/> 
+    <Route path="/" component={() => { window.location = 'http://marketeronline.co'; return null;}}/>
   </Switch>
 )
 
