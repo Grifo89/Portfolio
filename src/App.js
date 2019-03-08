@@ -40,6 +40,7 @@ function initializeReactGA() {
 class App extends Component {
 
   render() {
+    initializeReactGA();
     return (
       <div className="demo-big-content">
         <Particles className='Particles'
