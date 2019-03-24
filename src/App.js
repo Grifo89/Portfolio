@@ -37,19 +37,31 @@ function initializeReactGA() {
   ReactGA.pageview(window.location.pathname + window.location.search);
 }
 
-class App extends Component {
 
+
+
+class App extends Component {
   render() {
     initializeReactGA();
-    return (
-      <div className="demo-big-content">
-        <Particles className='Particles'
+    let width = window.innerWidth;
+    if (width > 768) {
+      return (
+        <div className="demo-big-content">
+          <Particles className='Particles'
           params={particlesOptions}
-        />
-        <span className="circle"></span>
-        <NavBar/>
-    </div>
-    );
+          />
+          <span className="circle"></span>
+          <NavBar/>
+        </div>
+      )
+    } else {
+      return (
+        <div className="demo-big-content">
+          <span className="circle"></span>
+          <NavBar/>
+      </div>
+    )
+    }
   }
 }
 
